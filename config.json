@@ -11,7 +11,7 @@
 
   "ads": {
     "ads_enabled": true,
-    "priority": "admob",
+    "priority": "facebook",
     "fallback_enabled": true,
 
     "banner": {
