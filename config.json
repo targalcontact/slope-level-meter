@@ -6,7 +6,7 @@
 
   "remote_config": {
     "enabled": true,
-    "cache_hours": 0
+    "cache_hours": 0.01
   },
 
   "ads": {
@@ -22,8 +22,8 @@
     "interstitial": {
       "enabled": true,
       "provider": "facebook",
-      "after_actions": 10,
-      "minimum_interval_seconds": 30
+      "after_actions": 5,
+      "minimum_interval_seconds": 10
     },
 
     "native": {
@@ -36,7 +36,7 @@
       "provider": "admob",
       "show_on_cold_start": true,
       "show_on_resume": true,
-      "minimum_interval_minutes": 0
+      "minimum_interval_minutes": 1
     },
 
     "rewarded": {
