@@ -1,0 +1,72 @@
+{
+  "app_meta": {
+    "version": "1.0.0",
+    "maintenance": false
+  },
+
+  "remote_config": {
+    "enabled": true,
+    "cache_hours": 24
+  },
+
+  "ads": {
+    "ads_enabled": true,
+    "priority": "admob",
+    "fallback_enabled": true,
+
+    "banner": {
+      "enabled": true,
+      "provider": "admob"
+    },
+
+    "interstitial": {
+      "enabled": true,
+      "provider": "admob",
+      "after_actions": 10,
+      "minimum_interval_seconds": 90
+    },
+
+    "native": {
+      "enabled": true,
+      "provider": "facebook"
+    },
+
+    "app_open": {
+      "enabled": true,
+      "provider": "admob",
+      "show_on_cold_start": true,
+      "show_on_resume": true,
+      "minimum_interval_minutes": 10
+    },
+
+    "rewarded": {
+      "enabled": false,
+      "provider": "admob"
+    },
+
+    "admob_ids": {
+      "banner": "ca-app-pub-3940256099942544/6300978111",
+      "interstitial": "ca-app-pub-3940256099942544/1033173712",
+      "native": "ca-app-pub-3940256099942544/2247696110",
+      "app_open": "ca-app-pub-3940256099942544/9257399558",
+      "rewarded": "ca-app-pub-3940256099942544/5224354917"
+    },
+
+    "facebook_ids": {
+      "banner": "YOUR_PLACEMENT_ID#BANNER_50_320",
+      "interstitial": "YOUR_PLACEMENT_ID#VID_HD_16_9_15S_LINK",
+      "native": "YOUR_PLACEMENT_ID#IMG_16_9_APP_INSTALL",
+      "rewarded": "YOUR_PLACEMENT_ID#VID_HD_16_9_15S_LINK"
+    }
+  },
+
+  "features": {
+    "slope_mode": true,
+    "angle_mode": true,
+    "relative_mode": true,
+    "min_max_mode": true,
+    "calibration": true
+  },
+
+  "test_mode": true
+}
