@@ -1,72 +1,39 @@
 {
-  "app_meta": {
-    "version": "1.0.0",
-    "maintenance": false
-  },
-
-  "remote_config": {
-    "enabled": true,
-    "cache_hours": 0.01
-  },
-
   "ads": {
-    "ads_enabled": true,
-    "priority": "facebook",
-    "fallback_enabled": true,
+    "enabled": true,
 
     "banner": {
       "enabled": true,
-      "provider": "facebook"
+      "provider": "admob"
     },
 
     "interstitial": {
       "enabled": true,
-      "provider": "facebook",
-      "after_actions": 5,
-      "minimum_interval_seconds": 10
+      "provider": "admob",
+      "after_actions": 5
     },
 
     "native": {
       "enabled": true,
-      "provider": "facebook"
+      "provider": "admob"
     },
 
     "app_open": {
       "enabled": true,
-      "provider": "admob",
-      "show_on_cold_start": true,
-      "show_on_resume": true,
-      "minimum_interval_minutes": 1
-    },
-
-    "rewarded": {
-      "enabled": false,
       "provider": "admob"
     },
 
     "admob_ids": {
-      "banner": "ca-app-pub-3940256099942544/6300978111",
-      "interstitial": "ca-app-pub-3940256099942544/1033173712",
-      "native": "ca-app-pub-3940256099942544/2247696110",
-      "app_open": "ca-app-pub-3940256099942544/9257399558",
-      "rewarded": "ca-app-pub-3940256099942544/5224354917"
+      "banner": "ADMOB_BANNER_ID",
+      "interstitial": "ADMOB_INTERSTITIAL_ID",
+      "native": "ADMOB_NATIVE_ID",
+      "app_open": "ADMOB_APP_OPEN_ID"
     },
 
     "facebook_ids": {
-      "banner": "YOUR_PLACEMENT_ID#BANNER_50_320",
-      "interstitial": "YOUR_PLACEMENT_ID#VID_HD_16_9_15S_LINK",
-      "native": "YOUR_PLACEMENT_ID#IMG_16_9_APP_INSTALL",
-      "rewarded": "YOUR_PLACEMENT_ID#VID_HD_16_9_15S_LINK"
+      "banner": "FACEBOOK_BANNER_ID",
+      "interstitial": "FACEBOOK_INTERSTITIAL_ID",
+      "native": "FACEBOOK_NATIVE_ID"
     }
-  },
-
-  "features": {
-    "slope_mode": true,
-    "angle_mode": true,
-    "relative_mode": true,
-    "min_max_mode": true,
-    "calibration": true
-  },
-
-  "test_mode": true
+  }
 }
