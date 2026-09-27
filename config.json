@@ -3,14 +3,14 @@
     "enabled": true,
 
     "banner": {
-      "enabled": true,
+      "enabled": false,
       "provider": "facebook"
     },
 
     "interstitial": {
-      "enabled": true,
+      "enabled": false,
       "provider": "facebook",
-      "after_actions": 10
+      "after_actions": 3
     },
 
     "native": {
@@ -19,7 +19,7 @@
     },
 
     "app_open": {
-      "enabled": true,
+      "enabled": false,
       "provider": "admob"
     },
 
