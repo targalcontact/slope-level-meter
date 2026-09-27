@@ -14,7 +14,7 @@
     },
 
     "native": {
-      "enabled": true,
+      "enabled": false,
       "provider": "facebook"
     },
 
@@ -33,7 +33,7 @@
     "facebook_ids": {
       "banner": "IMG_16_9_LINK#767350561574495_767350908241127",
       "interstitial": "VID_HD_16_9_15S_LINK#767350561574495_767351001574451",
-      "native": "IMG_16_9_LINK#767350561574495_767350908241127"
+      "native": "IMG_16_9_APP_INSTALL#767350561574495_767351054907779"
     }
   }
 }
