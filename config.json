@@ -4,18 +4,18 @@
 
     "banner": {
       "enabled": true,
-      "provider": "admob"
+      "provider": "facebook"
     },
 
     "interstitial": {
       "enabled": true,
-      "provider": "admob",
-      "after_actions": 3
+      "provider": "facebook",
+      "after_actions": 5
     },
 
     "native": {
       "enabled": true,
-      "provider": "admob"
+      "provider": "facebook"
     },
 
     "app_open": {
@@ -31,9 +31,9 @@
     },
 
     "facebook_ids": {
-      "banner": "IMG_16_9_APP_INSTALL",
-      "interstitial": "IMG_16_9_LINK",
-      "native": "IMG_16_9_APP_INSTALL"
+      "banner": "IMG_16_9_LINK#767350561574495_767350908241127",
+      "interstitial": "VID_HD_16_9_15S_LINK#767350561574495_767351001574451",
+      "native": "IMG_16_9_APP_INSTALL#767350561574495_767351054907779"
     }
   }
 }
