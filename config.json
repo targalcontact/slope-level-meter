@@ -3,7 +3,7 @@
     "enabled": true,
 
     "banner": {
-      "enabled": true,
+      "enabled": false,
       "provider": "facebook"
     },
 
