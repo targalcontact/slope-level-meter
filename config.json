@@ -14,7 +14,7 @@
     },
 
     "native": {
-      "enabled": false,
+      "enabled": true,
       "provider": "facebook"
     },
 
