@@ -1,37 +1,25 @@
 {
   "ads": {
     "enabled": true,
-
-    "banner": {
-      "enabled": true,
-      "provider": "facebook"
-    },
-
     "interstitial": {
       "enabled": true,
-      "provider": "facebook",
+      "provider": "admob",
       "after_actions": 5
     },
-
     "native": {
-      "enabled": false,
-      "provider": "facebook"
+      "enabled": true,
+      "provider": "admob"
     },
-
     "app_open": {
       "enabled": true,
       "provider": "admob"
     },
-
     "admob_ids": {
-      "banner": "ca-app-pub-3940256099942544/6300978111",
       "interstitial": "ca-app-pub-3940256099942544/1033173712",
       "native": "ca-app-pub-3940256099942544/2247696110",
       "app_open": "ca-app-pub-3940256099942544/9257399558"
     },
-
     "facebook_ids": {
-      "banner": "IMG_16_9_LINK#767350561574495_767350908241127",
       "interstitial": "VID_HD_16_9_15S_LINK#767350561574495_767351001574451",
       "native": "IMG_16_9_APP_INSTALL#767350561574495_767351054907779"
     }
