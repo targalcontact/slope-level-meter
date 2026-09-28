@@ -3,7 +3,7 @@
     "enabled": true,
     "interstitial": {
       "enabled": true,
-      "provider": "facebook",
+      "provider": "admob",
       "after_actions": 5
     },
     "native": {
