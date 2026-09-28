@@ -2,13 +2,13 @@
   "ads": {
     "enabled": true,
     "interstitial": {
-      "enabled": false,
+      "enabled": true,
       "provider": "facebook",
       "after_actions": 5
     },
     "native": {
       "enabled": true,
-      "provider": "facebook"
+      "provider": "admob"
     },
     "app_open": {
       "enabled": true,
