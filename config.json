@@ -2,7 +2,7 @@
   "ads": {
     "enabled": true,
     "interstitial": {
-      "enabled": true,
+      "enabled": false,
       "provider": "facebook",
       "after_actions": 5
     },
