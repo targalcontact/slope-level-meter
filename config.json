@@ -1,32 +1,27 @@
 {
   "ads": {
     "enabled": true,
-
     "banner": {
       "enabled": true,
       "provider": "facebook"
     },
-
     "interstitial": {
       "enabled": true,
       "provider": "facebook",
       "after_actions": 5
     },
-
     "app_open": {
       "enabled": true,
       "provider": "admob"
     },
-
     "admob_ids": {
       "banner": "ca-app-pub-3940256099942544/6300978111",
       "interstitial": "ca-app-pub-3940256099942544/1033173712",
       "app_open": "ca-app-pub-3940256099942544/9257395921"
     },
-
     "facebook_ids": {
       "banner": "IMG_16_9_APP_INSTALL#767350561574495_767350908241127",
-      "interstitial": "IMG_16_9_APP_INSTALL#767350561574495_767351001574451"
+      "interstitial": "VID_HD_16_9_15S_LINK#767350561574495_767351001574451"
     }
   }
 }
